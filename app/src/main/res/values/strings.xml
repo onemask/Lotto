@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Lotto</string>
+    <string name="random_num">랜덤으로 번호 생성</string>
+    <string name="make_random_num">랜덤으로 로또번호를 생성합니다.</string>
+    <string name="make_start">별자리로 번호 생성</string>
+    <string name="make_name">이름으로 번호 생성</string>
 </resources>
