@@ -16,7 +16,7 @@ class NameActivity : AppCompatActivity() {
 
     private fun setupIntent() {
         val intent = intent
-        intent.putExtra("REUSLT","NameActivity 성공")
+        intent.putExtra("RESULT","NameActivity 성공")
         setResult(Activity.RESULT_OK,intent)
         finish()
     }

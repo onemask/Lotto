@@ -75,33 +75,29 @@ class TestActivity : AppCompatActivity() {
         when (requestCode) {
             MAIN_REQUEST_CODE -> {
                 if (resultCode == Activity.RESULT_OK) {
-                    val result = data!!.getStringExtra("Result")
                     Log.d("onActivityResult", "resultCode is $resultCode request is $requestCode")
-                    Log.d("onActivityResult", "data is ${intent.getStringExtra("Result")}")
+                    Log.d("onActivityResult", "data is ${data!!.getStringExtra("RESULT")}")
                 } else
                     return
             }
             CONSTELLATION_REQUEST_CODE -> {
                 if (resultCode == Activity.RESULT_OK) {
-                    val result = data!!.getStringExtra("Result")
                     Log.d("onActivityResult", "resultCode is $resultCode request is $requestCode")
-                    Log.d("onActivityResult", "data is ${intent.getStringExtra("Result")}")
+                    Log.d("onActivityResult", "data is ${data!!.getStringExtra("RESULT")}")
                 } else
                     return
             }
             NAME_REQUEST_CODE -> {
                 if (resultCode == Activity.RESULT_OK) {
-                    val result = data!!.getStringExtra("Result")
                     Log.d("onActivityResult", "resultCode is $resultCode request is $requestCode")
-                    Log.d("onActivityResult", "data is ${intent.getStringExtra("Result")}")
+                    Log.d("onActivityResult", "data is ${data!!.getStringExtra("RESULT")}")
                 } else
                     return
             }
             RESULT__REQUEST_CODE -> {
                 if (resultCode == Activity.RESULT_OK) {
-                    val result = data!!.getStringExtra("Result")
                     Log.d("onActivityResult", "resultCode is $resultCode request is $requestCode")
-                    Log.d("onActivityResult", "data is ${intent.getStringExtra("Result")}")
+                    Log.d("onActivityResult", "data is ${data!!.getStringExtra("RESULT")}")
 
                 } else
                     return
